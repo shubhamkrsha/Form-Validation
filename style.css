@@ -1,0 +1,40 @@
+body{
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-container{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 10px 10px 10px wheat, -10px 10px 10px wheat;
+}
+
+h1{
+    margin: 0px 0px 10px 0px;
+}
+
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    width: 220px;
+    background-color: #3498db;
+    border: 0px;
+    color: white;
+}
+
+.error{
+    margin: 0px;
+    color: red;
+    text-align: left;
+}
